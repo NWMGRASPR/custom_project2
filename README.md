@@ -31,17 +31,6 @@ Then think about a good name to hold that value in code.
 4. A **string of characters (text)** (e.g. `city`, `company_name`, `analytic_specialty`)
 5. A **list of strings** (e.g., `skills`, `interests`, `favorite_teams`)
 
-## Student Scores
-
-# 1. Create a sample dataset
-data = {
-    'Student': ['Alice', 'Bob', 'Charlie', 'Diana', 'Evan'],
-    'Score': [85, 90, 78, 92, 85]
-}
-df = pd.DataFrame(data)
-
-# 2. Calculate descriptive statistics
-summary_stats = df['Score'].describe()
 
 # 3. Display the results
 print("Descriptive Statistics for Student Scores:")
