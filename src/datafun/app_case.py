@@ -1,4 +1,4 @@
-"""src/datafun/app_case.py - Project script (example).
+"""src/custom/app_case.py - Project script (example).
 
 Author: Denise Case
 Date: 2026-05
