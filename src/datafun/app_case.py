@@ -56,8 +56,34 @@ HELPFUL_TRAITS: Final[list[str]] = [
     "tenacity",
 ]
 
-# === DECLARE A FUNCTION TO FORMAT THE INFORMATION ===
+# == Basic Calculator Program
+print("Welcome to my program")
 
+# Calculator code starts here
+def calculator():
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+
+    operation = input("Choose (+, -, *, /): ")
+
+    if operation == "+":
+        print("Result:", num1 + num2)
+
+    elif operation == "-":
+        print("Result:", num1 - num2)
+
+    elif operation == "*":
+        print("Result:", num1 * num2)
+
+    elif operation == "/":
+        print("Result:", num1 / num2)
+
+    else:
+        print("Invalid operation")
+ 
+print("Program finished")
+
+# === DECLARE A FUNCTION TO FORMAT THE INFORMATION ===
 
 def get_summary() -> str:
     """Get a formatted summary of the information held in the global variables.
