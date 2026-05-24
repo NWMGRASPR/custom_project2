@@ -57,9 +57,7 @@ HELPFUL_TRAITS: Final[list[str]] = [
 ]
 
 # == Basic Calculator Program ==
-print("Welcome to my program")
 
-# Calculator code starts here
 def calculator():
     num1 = float(input("Enter first number: "))
     num2 = float(input("Enter second number: "))
