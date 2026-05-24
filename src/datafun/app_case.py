@@ -56,7 +56,7 @@ HELPFUL_TRAITS: Final[list[str]] = [
     "tenacity",
 ]
 
-# == Basic Calculator Program
+# == Basic Calculator Program ==
 print("Welcome to my program")
 
 # Calculator code starts here
